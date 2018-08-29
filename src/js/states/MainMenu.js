@@ -70,7 +70,7 @@ GameCtrl.MainMenu.prototype = {
                             _this.blinkedTimes++;
                             if(_this.blinkedTimes>10){
                                     clearInterval(_this.timerBlinker);
-                                    GameCtrl.data={textToRender:'STAGE 02', nextState:'Stage02' };
+                                    GameCtrl.data={textToRender:'STAGE 01', nextState:'Stage01' };
                                     _this.game.state.start('Prestage');
 
                             }
